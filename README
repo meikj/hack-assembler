@@ -1,5 +1,5 @@
 The Hack computer platform assembler (mostly) based on the specification as outlined in the book "The Elements of Computing Systems" by Noam Nisan and Shimon Shocken.
 
-The assembler is written in Python and has been tested on v2.7.5. The usage instructions are as follows:
+The assembler is written in Python and has been tested on v2.7.5 and v3.3.2. The usage instructions are as follows:
 
 assembler.py <input> > file.hack
