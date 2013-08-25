@@ -73,7 +73,7 @@ def address(dec):
     while i > 0:
         b = str(dec % 2)
         addr = b + addr
-        dec = dec / 2
+        dec = dec // 2
         i -= 1
 
     return addr
