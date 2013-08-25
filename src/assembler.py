@@ -12,7 +12,7 @@ from hack_parser import Parser
 from hack_st import SymbolTable
 
 def main(f):
-    '''Run the assembler on the specified file "f" and output to stdin.'''
+    '''Run the assembler on the specified file "f" and output to stdout.'''
     p = Parser(f)
     st = SymbolTable()
 
